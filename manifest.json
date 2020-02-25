@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "refined-naver-blog",
+  "version": "1.0.0",
+  "description": "Makes Naver blogs more readable and less distractive.",
+  "icons": {
+    "240": "icons/noto-emoji-eyes.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://m.blog.naver.com/*"],
+      "css": ["main.css"]
+    }
+  ]
+}
