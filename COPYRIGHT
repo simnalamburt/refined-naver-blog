@@ -1,5 +1,3 @@
-/*
-
 refined-naver-blog
 Copyright (C) 2020  Hyeon Kim
 
@@ -15,22 +13,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-*/
-
-body#body {
-  position: relative;
-}
-body#body > div.Ngnb.gnb_bg_white {
-  position: absolute;
-}
-.floating_menu {
-  position: absolute;
-  transform: translate(0, 100%);
-}
-#_post_area {
-  padding-right: 0;
-}
-.tablet_aside._relatedCategoryPostListArea {
-  display: none;
-}
