@@ -2,6 +2,9 @@ refined-naver-blog
 ========
 Makes Naver blogs more readable and less distractive.
 
+- [**Install this extension** at addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/refined-naver-blog/)
+- [**Install this extension** at github.com](https://github.com/simnalamburt/refined-naver-blog/releases/latest)
+
 ```bash
 # Build extension
 zip -r refined-naver-blog.xpi icons main.css manifest.json
