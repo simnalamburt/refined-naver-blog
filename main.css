@@ -1,7 +1,7 @@
 body#body {
   position: relative;
 }
-.Ngnb {
+body#body > div.Ngnb.gnb_bg_white {
   position: absolute;
 }
 .floating_menu {
