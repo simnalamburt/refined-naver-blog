@@ -1,0 +1,16 @@
+body#body {
+  position: relative;
+}
+.Ngnb {
+  position: absolute;
+}
+.floating_menu {
+  position: absolute;
+  transform: translate(0, 100%);
+}
+#_post_area {
+  padding-right: 0;
+}
+.tablet_aside._relatedCategoryPostListArea {
+  display: none;
+}
