@@ -16,6 +16,37 @@ zip -r refined-naver-blog.xpi icons main.css manifest.json
 
 &nbsp;
 
+## Userscript version
+I haven't made this plugin into a Chrome browser extension yet because I found it a bit bothersome. Chrome users can install the [ViolentMonkey extension](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) and then add the user script below.
+```js
+// ==UserScript==
+// @name    refined-naver-blog
+// @match   *://m.blog.naver.com/*
+// @grant   GM_addStyle
+// @run-at  document-start
+// ==/UserScript==
+GM_addStyle(`
+body#body {
+  position: relative;
+}
+body#body > div.Ngnb.gnb_bg_white {
+  position: absolute;
+}
+.floating_menu {
+  position: absolute;
+  transform: translate(0, 100%);
+}
+#_post_area {
+  padding-right: 0;
+}
+.tablet_aside._relatedCategoryPostListArea {
+  display: none;
+}
+`)
+```
+
+&nbsp;
+
 ---
 
 *refined-naver-blog* is primarily distributed under the terms of the [GNU
