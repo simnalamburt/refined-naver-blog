@@ -26,22 +26,33 @@ I haven't made this plugin into a Chrome browser extension yet because I found i
 // @run-at  document-start
 // ==/UserScript==
 GM_addStyle(`
+
 body#body {
   position: relative;
+  padding-bottom: 10rem;
+
+  .Ngnb.gnb_bg_white, /* top nav bar */
+  .floating_menu, /* bottom floating menu */
+  .tablet_aside._relatedCategoryPostListArea /* right pannel */
+  {
+    display: none;
+  }
+
+  #_post_area {
+    padding-right: 0;
+  }
+
+  #blog_fe_feed {
+    #post_writer, /* writer info */
+    .recommend_section__wqomV, /* recommendations */
+    .banner_wrap__XF_zb, /* banners */
+    .footer_wrap__A8tgh /* "맨 위로", "PC 버전으로 보기" */
+    {
+      display: none;
+    }
+  }
 }
-body#body > div.Ngnb.gnb_bg_white {
-  position: absolute;
-}
-.floating_menu {
-  position: absolute;
-  transform: translate(0, 100%);
-}
-#_post_area {
-  padding-right: 0;
-}
-.tablet_aside._relatedCategoryPostListArea {
-  display: none;
-}
+
 `)
 ```
 
