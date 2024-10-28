@@ -10,7 +10,6 @@ and top/bottom bars, making it easier to focus on reading the content.
 
 - [**Install this extension** at chrome web store](https://chromewebstore.google.com/detail/fmialkkjblegnlnojennknlnhiancjbk)
 - [**Install this extension** at addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/refined-naver-blog/)
-- [**Install this extension** at github.com](https://github.com/simnalamburt/refined-naver-blog/releases/latest)
 
 before    | after
 :--------:|:--------:
