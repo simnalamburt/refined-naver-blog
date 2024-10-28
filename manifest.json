@@ -13,5 +13,11 @@
       "matches": ["*://m.blog.naver.com/*"],
       "css": ["main.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{adb8dda1-7d7b-4792-865f-daaf313d9a67}",
+      "strict_min_version": "109.0"
+    }
+  }
 }
