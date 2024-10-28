@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail; IFS=$'\n\t'
+
+zip -r refined-naver-blog.zip icons main.css manifest.json

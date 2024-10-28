@@ -11,7 +11,7 @@ before    | after
 
 ```bash
 # Build extension
-zip -r refined-naver-blog.xpi icons main.css manifest.json
+./build
 ```
 
 &nbsp;
