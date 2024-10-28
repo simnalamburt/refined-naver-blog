@@ -6,11 +6,7 @@
   "homepage_url": "https://github.com/simnalamburt/refined-naver-blog",
   "icons": {
     "48": "icons/noto-emoji-eyes-48.png",
-    "64": "icons/noto-emoji-eyes-64.png",
-    "96": "icons/noto-emoji-eyes-96.png",
-    "128": "icons/noto-emoji-eyes-128.png",
-    "144": "icons/noto-emoji-eyes-144.png",
-    "240": "icons/noto-emoji-eyes-240.png"
+    "128": "icons/noto-emoji-eyes-128.png"
   },
   "content_scripts": [
     {
