@@ -33,11 +33,19 @@ body#body {
 
   .Ngnb.gnb_bg_white, /* top nav bar */
   .floating_menu, /* bottom floating menu */
-  .tablet_aside._relatedCategoryPostListArea /* right pannel */
+  .tablet_aside._relatedCategoryPostListArea, /* right pannel */
+  #ct .blog_btnArea, /* buttons near title */
+  #ct .naver-splugin.btn_share._returnFalse /* share button */
   {
     display: none;
   }
 
+  /* disable horizontal line below title */
+  .se-viewer .se-documentTitle .se-component-content::after {
+    border-bottom: none;
+  }
+
+  /* wide post area */
   #_post_area {
     padding-right: 0;
   }
