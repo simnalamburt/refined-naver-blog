@@ -1,7 +1,14 @@
 refined-naver-blog
 ========
-Makes Naver blogs more readable and less distractive.
+네이버 블로그 모바일 뷰 화면(<https://m.blog.naver.com>)의 가독성을 훨씬
+올려주는 브라우저 확장입니다. 글 읽기에 불필요한 위젯이나 상단/하단바들을 모두
+가려줍니다.
 
+This is a browser extension that significantly enhances the readability of Naver
+Blog mobile view (i.e. <https://m.blog.naver.com>). It hides unnecessary widgets
+and top/bottom bars, making it easier to focus on reading the content.
+
+- [**Install this extension** at chrome web store](https://chromewebstore.google.com/detail/fmialkkjblegnlnojennknlnhiancjbk)
 - [**Install this extension** at addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/refined-naver-blog/)
 - [**Install this extension** at github.com](https://github.com/simnalamburt/refined-naver-blog/releases/latest)
 
