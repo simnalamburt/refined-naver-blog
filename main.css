@@ -23,28 +23,18 @@ body#body {
   padding-bottom: 10rem;
 
   .Ngnb.gnb_bg_white, /* top nav bar */
-  .floating_menu, /* bottom floating menu */
-  .tablet_aside._relatedCategoryPostListArea, /* right pannel */
   #ct .blog_btnArea, /* buttons near title */
-  #ct .naver-splugin.btn_share._returnFalse /* share button */
+  .interact_section__y00DX.is_floating__hiq1u, /* bottom floating menu */
+  #ad-bottom-portal, /* bottom ads */
+  .splugin_area__Ajs0X /* share button */
   {
     display: none;
-  }
-
-  /* disable horizontal line below title */
-  .se-viewer .se-documentTitle .se-component-content::after {
-    border-bottom: none;
-  }
-
-  /* wide post area */
-  #_post_area {
-    padding-right: 0;
   }
 
   #blog_fe_feed {
     #post_writer, /* writer info */
     .recommend_section__wqomV, /* recommendations */
-    .banner_wrap__XF_zb, /* banners */
+    .section_powerlink_wrap__hWBHw, /* powerlink ads */
     .footer_wrap__A8tgh /* "맨 위로", "PC 버전으로 보기" */
     {
       display: none;
